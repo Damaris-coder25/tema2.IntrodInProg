@@ -10,10 +10,10 @@ public class Sertar {
 		}
 		
 		public String toString() {
-			return  "Sertar"+  nr + ": l" + l + " L" + L + " H" + H;
+			return  "sertar"+  nr + ":l" + l + " L" + L + " H" + H;
 		}
 	public void tipareste() {
-		System.out.println("Sertar: " + "l" + l + " L" + L + " H" + H);
+		System.out.println("sertar: " + "l" + l + " L" + L + " H" + H);
 	}
 }
 

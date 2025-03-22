@@ -1,11 +1,15 @@
 
 public class Birou {
-
-	public static void main(String[] args) {
-		Sertar s1 = new Sertar(1,3,7,6);
-		System.out.println(s1);
-	    Sertar s2 = new Sertar(2,4,8,5);
-	    System.out.println(s2);
+	private int l, L, H;
+	
+	public Birou(int l, int L, int H ) {
+		this.l = l;
+		this.L = L;
+		this.H = H;
 	}
-
+	
+	public String toString() {
+		return  "l" + l + " L" + L + " H" + H;
+	}
 }
+
